@@ -4,7 +4,7 @@ const fs = require('fs');
 // Create a WebSocket server that listens on port 3000
 const server = new WebSocket.Server({ port: 3000 });
 
-console.log('WebSocket server is running on ws://192.168.1.138:3000');
+console.log('WebSocket server is running on ws://localhost:3000');
 
 server.on('connection', (socket) => {
   console.log('Client connected');
